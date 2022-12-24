@@ -5,6 +5,8 @@ date: 2022-12-23
 ---
 
 import { IoLogoTwitter } from 'react-icons/io';
+import tilesPic from '../public/images/tiles.png';
+import devportalPic from '../public/images/devportal.png';
 import Image from 'next/image';
 
 # Work
@@ -19,12 +21,11 @@ import Image from 'next/image';
 
 <Image
   style={{
-    borderRadius: '3rem',
+    borderRadius: '2rem',
     overflow: 'hidden',
-    padding: '1rem',
-    marginTop: '-1.25rem',
   }}
-  src="/images/tiles.png"
+  src={tilesPic}
+  placeholder="blur"
   alt="tiles"
   width={1000}
   height={1000}
@@ -36,12 +37,11 @@ import Image from 'next/image';
 
 <Image
   style={{
-    borderRadius: '3rem',
+    borderRadius: '2rem',
     overflow: 'hidden',
-    padding: '1rem',
-    marginTop: '-1.25rem',
   }}
-  src="/images/devportal.png"
+  placeholder="blur"
+  src={devportalPic}
   alt="Developer Portal"
   width={1000}
   height={1000}
@@ -53,8 +53,8 @@ import Image from 'next/image';
 
 ## 2020 - 2020 @ Shopify
 
-### Software Engineering Intern | Multi-Channel Apps
+#### Software Engineering Intern | Multi-Channel Apps
 
 ## 2019 - 2019 @ Tesla
 
-### Software Engineering Intern | Supercharger Service Engineering
+#### Software Engineering Intern | Supercharger Service Engineering
