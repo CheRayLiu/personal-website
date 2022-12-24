@@ -6,8 +6,8 @@ const matter = require('gray-matter');
 async function generate() {
   const feed = new RSS({
     title: `Ray Liu's personal website`,
-    site_url: 'https://yoursite.com',
-    feed_url: 'https://yoursite.com/feed.xml',
+    site_url: 'https://rayliu.me',
+    feed_url: 'https://rayliu.me/feed.xml',
   });
 
   const posts = await fs.readdir(
